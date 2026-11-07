@@ -120,8 +120,7 @@ const herberty = {
 ### `> números`
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=HerbertyFreire&show_icons=true&hide_border=true&bg_color=05121f&title_color=5eead4&icon_color=5eead4&text_color=cbd5e1&rank_icon=github&locale=pt-br" alt="Estatísticas do GitHub"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HerbertyFreire&layout=compact&hide_border=true&bg_color=05121f&title_color=5eead4&text_color=cbd5e1&langs_count=8&locale=pt-br" alt="Linguagens mais usadas"/>
+  <img src="https://raw.githubusercontent.com/HerbertyFreire/HerbertyFreire/output/stats.svg" alt="Estatísticas e linguagens mais usadas no GitHub" width="100%"/>
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=HerbertyFreire&hide_border=true&background=05121f&ring=5eead4&fire=fbbf24&currStreakLabel=5eead4&sideLabels=cbd5e1&currStreakNum=f8fafc&sideNums=f8fafc&dates=94a3b8&stroke=0b2a3a&locale=pt_BR" alt="Sequência de contribuições"/>
