@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="TCC: desempenho de WebRTC sob estresse de rede — Cut-Through mantém ~0,111 ms enquanto Store-and-Forward chega a ~3,5 ms sob carga">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07182a"/><stop offset="1" stop-color="#0b2738"/>
+    </linearGradient>
+    <linearGradient id="sf" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f97316"/><stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+    <linearGradient id="ct" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14b8a6"/><stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="300" rx="22"/></clipPath>
+    <style>
+      .mono{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+      .sans{font-family:'Segoe UI',Inter,-apple-system,Helvetica,Arial,sans-serif}
+      .grow{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:grow 1.4s cubic-bezier(.2,.8,.2,1) forwards}
+      .g2{animation-delay:.35s}
+      @keyframes grow{to{transform:scaleX(1)}}
+      .fade{opacity:0;animation:in .8s ease-out forwards}
+      .f1{animation-delay:.9s}.f2{animation-delay:1.1s}.f3{animation-delay:1.3s}.f4{animation-delay:1.5s}
+      @keyframes in{to{opacity:1}}
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+
+    <text class="mono" x="56" y="54" font-size="14" fill="#5eead4" letter-spacing="2">PESQUISA · TCC</text>
+    <text class="sans" x="56" y="90" font-size="28" font-weight="700" fill="#f8fafc">WebRTC sob estresse de rede</text>
+    <text class="sans" x="56" y="118" font-size="16" fill="#94a3b8">Comutação Cut-Through vs Store-and-Forward · simulação no ns-3</text>
+
+    <!-- barras de latência -->
+    <g transform="translate(56 150)">
+      <text class="mono" x="0" y="0" font-size="13" fill="#94a3b8">latência sob carga</text>
+      <text class="sans" x="0" y="34" font-size="15" font-weight="600" fill="#e2e8f0">Store-and-Forward</text>
+      <rect x="170" y="20" width="460" height="20" rx="10" fill="#ffffff" fill-opacity=".05"/>
+      <rect class="grow" x="170" y="20" width="460" height="20" rx="10" fill="url(#sf)"/>
+      <text class="mono fade f1" x="642" y="35" font-size="15" fill="#fdba74">3,2–3,5 ms</text>
+
+      <text class="sans" x="0" y="82" font-size="15" font-weight="600" fill="#e2e8f0">Cut-Through</text>
+      <rect x="170" y="68" width="460" height="20" rx="10" fill="#ffffff" fill-opacity=".05"/>
+      <rect class="grow g2" x="170" y="68" width="16" height="20" rx="10" fill="url(#ct)"/>
+      <text class="mono fade f1" x="198" y="83" font-size="15" fill="#5eead4">~0,111 ms · estável</text>
+    </g>
+
+    <!-- stat tiles -->
+    <g transform="translate(790 46)">
+      <g class="fade f1">
+        <rect width="170" height="96" rx="14" fill="#ffffff" fill-opacity=".04" stroke="#5eead4" stroke-opacity=".18"/>
+        <text class="sans" x="18" y="48" font-size="34" font-weight="800" fill="#f8fafc">180</text>
+        <text class="sans" x="18" y="76" font-size="13" fill="#94a3b8">simulações</text>
+      </g>
+      <g class="fade f2" transform="translate(186 0)">
+        <rect width="170" height="96" rx="14" fill="#ffffff" fill-opacity=".04" stroke="#5eead4" stroke-opacity=".18"/>
+        <text class="sans" x="18" y="48" font-size="34" font-weight="800" fill="#f8fafc">9×4</text>
+        <text class="sans" x="18" y="76" font-size="13" fill="#94a3b8">codecs × cargas</text>
+      </g>
+      <g class="fade f3" transform="translate(0 112)">
+        <rect width="170" height="96" rx="14" fill="#ffffff" fill-opacity=".04" stroke="#5eead4" stroke-opacity=".18"/>
+        <text class="sans" x="18" y="48" font-size="34" font-weight="800" fill="#5eead4">4,1–4,4</text>
+        <text class="sans" x="18" y="76" font-size="13" fill="#94a3b8">MOS de voz</text>
+      </g>
+      <g class="fade f4" transform="translate(186 112)">
+        <rect width="170" height="96" rx="14" fill="#ffffff" fill-opacity=".04" stroke="#fb7185" stroke-opacity=".3"/>
+        <text class="sans" x="18" y="48" font-size="30" font-weight="800" fill="#fda4af">70 Mbps</text>
+        <text class="sans" x="18" y="76" font-size="13" fill="#94a3b8">limiar de colapso</text>
+      </g>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="298" rx="21" fill="none" stroke="#5eead4" stroke-opacity=".18" stroke-width="2"/>
+</svg>

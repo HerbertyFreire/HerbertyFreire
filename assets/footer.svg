@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="Feito em Maceió, Alagoas">
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14b8a6" stop-opacity=".55"/><stop offset="1" stop-color="#0e7490" stop-opacity=".1"/>
+    </linearGradient>
+    <style>
+      .w{animation:d 12s linear infinite}.w2{animation:d 8s linear infinite reverse}
+      @keyframes d{from{transform:translateX(0)}to{transform:translateX(-600px)}}
+      .t{font-family:'JetBrains Mono',Consolas,'Courier New',monospace}
+    </style>
+  </defs>
+  <g class="w"><path fill="url(#s)" d="M0 70 C 75 54 150 54 225 70 S 375 86 450 70 S 600 54 675 70 S 825 86 900 70 S 1050 54 1125 70 S 1275 86 1350 70 S 1500 54 1575 70 S 1725 86 1800 70 V120 H0Z"/></g>
+  <g class="w2"><path fill="#2dd4bf" fill-opacity=".18" d="M0 88 C 100 76 200 76 300 88 S 500 100 600 88 S 800 76 900 88 S 1100 100 1200 88 S 1400 76 1500 88 S 1700 100 1800 88 V120 H0Z"/></g>
+  <text class="t" x="600" y="34" text-anchor="middle" font-size="14" fill="#14b8a6">feito com ☕ e brisa do mar · Maceió, AL</text>
+</svg>
