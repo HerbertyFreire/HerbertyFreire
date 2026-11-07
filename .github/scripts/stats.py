@@ -97,8 +97,9 @@ def main():
     out.append('</g>')
     out.append(f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="21" fill="none" stroke="#5eead4" stroke-opacity=".18" stroke-width="2"/></svg>')
 
-    os.makedirs("dist", exist_ok=True)
-    with open("dist/stats.svg", "w", encoding="utf-8") as f:
+    OUT = os.environ.get("OUT_DIR", "dist")
+    os.makedirs(OUT, exist_ok=True)
+    with open(os.path.join(OUT, "stats.svg"), "w", encoding="utf-8") as f:
         f.write("\n".join(out))
     print("ok:", stats, top)
 

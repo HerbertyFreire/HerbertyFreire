@@ -14,7 +14,7 @@ jobs:
   snake:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: Platane/snk@v3
         with:
@@ -24,8 +24,11 @@ jobs:
             dist/snake-dark.svg?palette=github-dark&color_snake=#fbbf24&color_dots=#0b2a3a,#115e59,#0f766e,#14b8a6,#5eead4
 
       - name: Gerar card de estatísticas
-        run: python3 .github/scripts/stats.py
+        run: |
+          python3 .github/scripts/stats.py
+          sudo mkdir -p dist && sudo cp stats-out/stats.svg dist/
         env:
+          OUT_DIR: stats-out
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
 
