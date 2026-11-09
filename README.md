@@ -45,10 +45,10 @@ const herberty = {
 ### `> pesquisa`
 
 <p align="center">
-  <img src="./assets/tcc.svg" alt="TCC: Cut-Through mantém latência de ~0,111 ms enquanto Store-and-Forward chega a 3,2–3,5 ms sob carga; 180 simulações; MOS de voz entre 4,1 e 4,4; colapso em 70 Mbps" width="100%"/>
+  <img src="./assets/tcc.svg" alt="TCC: 630 execuções no ns-3; latência Store-and-Forward de 0,14–0,38 ms no regime controlado, 2,0–2,6 ms congestionado e 3,5–3,7 ms na saturação; Cut-Through reduz até 15,8% sem carga e menos de 1% sob congestionamento" width="100%"/>
 </p>
 
-<sub>180 execuções numa matriz de 9 codecs × 4 cargas. Cut-Through segura a latência estável enquanto Store-and-Forward cresce até 30× sob carga; a voz se mantém com MOS alto em todos os cenários, e há um regime de colapso claro a partir de 70 Mbps de tráfego TCP em rajadas. Orientação: Prof. Dr. Almir Pereira Guimarães.</sub>
+<sub>630 execuções de 300 s (9 combinações de codecs de voz e vídeo × 7 cargas de 30 a 200 Mbps × 10 sementes), com o Cut-Through estimado por um modelo contrafactual por pacote. Três regimes aparecem: controlado, congestionado e saturação. O Cut-Through corta até 15,8% da latência do vídeo com a rede folgada, mas o ganho cai para menos de 1% sob carga, porque a maioria dos pacotes encontra a porta ocupada. Conclusão: num salto, o atraso de fila supera em uma ordem de grandeza o efeito do método de comutação e dos codecs. IC 95% de no máximo 5,3% da média; MOS de voz entre 4,10 e 4,41. Orientação: Prof. Dr. Almir Pereira Guimarães.</sub>
 
 ### `> projetos em destaque`
 
