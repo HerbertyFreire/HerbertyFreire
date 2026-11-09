@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="TCC: WebRTC em LAN, Cut-Through vs Store-and-Forward — 630 execuções no ns-3; latência SF de 0,14–0,38 ms (controlado), 2,0–2,6 ms (congestionado) e 3,5–3,7 ms (saturação); CT reduz até 15,8% sem carga e menos de 1% sob congestionamento">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="TCC: WebRTC em LAN, Cut-Through vs Store-and-Forward; 630 execuções no ns-3; latência SF de 0,14–0,38 ms (controlado), 2,0–2,6 ms (congestionado) e 3,5–3,7 ms (saturação); CT reduz até 15,8% sem carga e menos de 1% sob congestionamento">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07182a"/><stop offset="1" stop-color="#0b2738"/>

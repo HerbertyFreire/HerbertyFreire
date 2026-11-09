@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Herberty Freire — Full Stack Developer · Ciência da Computação @ UFAL" width="100%"/>
+  <img src="./assets/header.svg" alt="Herberty Freire, Full Stack Developer · Ciência da Computação @ UFAL" width="100%"/>
 </p>
 
 <p align="center">
@@ -12,14 +12,14 @@
 
 ### `> sobre`
 
-Sou **desenvolvedor Full Stack** na **SEADES/AL** (Secretaria de Estado da Assistência e Desenvolvimento Social de Alagoas) e estudante de **Ciência da Computação no IC/UFAL**. Meu trabalho mora no encontro entre **software e política pública**: do **Observatório Socioassistencial de Alagoas** (VSA-AL), sistema que gerencio e desenvolvo de ponta a ponta, a painéis, relatórios e análises que transformam planilha bagunçada em decisão de gestão — de dados eleitorais por zona e local de votação a indicadores de comunidades quilombolas e do SUAS. Sempre com dados pessoais protegidos: o que é público sai anonimizado e agregado.
+Sou **desenvolvedor Full Stack** na **SEADES/AL** (Secretaria de Estado da Assistência e Desenvolvimento Social de Alagoas) e estudante de **Ciência da Computação no IC/UFAL**. Meu trabalho mora no encontro entre **software e política pública**: do **Observatório Socioassistencial de Alagoas** (VSA-AL), sistema que gerencio e desenvolvo de ponta a ponta, a painéis, relatórios e análises que transformam planilha bagunçada em decisão de gestão, de dados eleitorais por zona e local de votação a indicadores de comunidades quilombolas e do SUAS. Sempre com dados pessoais protegidos: o que é público sai anonimizado e agregado.
 
-Na faculdade, pesquiso **redes**: meu TCC mede como a **comutação Cut-Through e Store-and-Forward** afetam a qualidade de experiência do **WebRTC** sob estresse, com simulações no **ns-3**. Agora estou me aprofundando em **engenharia de IA** — LLMs, RAG, agentes e MCP —, colocando em prática na **Eleven**, meu segundo cérebro.
+Na faculdade, pesquiso **redes**: meu TCC mede como a **comutação Cut-Through e Store-and-Forward** afetam a qualidade de experiência do **WebRTC** sob estresse, com simulações no **ns-3**. Agora estou me aprofundando em **engenharia de IA** (LLMs, RAG, agentes e MCP) e colocando em prática na **Eleven**, meu segundo cérebro.
 
 ```ts
 const herberty = {
   agora:       ["Full Stack Jr. @ SEADES/AL", "Ciência da Computação @ UFAL"],
-  antes:       ["Gerente de projeto & full stack — Imersão Brisa", "Estágio dev @ SEADES/AL", "Estágio @ SECULT/AL"],
+  antes:       ["Gerente de projeto & full stack @ Imersão Brisa", "Estágio dev @ SEADES/AL", "Estágio @ SECULT/AL"],
   pesquisa:    "QoE de WebRTC sob estresse de rede (ns-3)",
   estudando:   "engenharia de IA: LLMs, RAG, agentes e MCP",
   construindo: ["Observatório VSA-AL", "Eleven", "RiderSync", "Aboio"],
@@ -84,7 +84,7 @@ const herberty = {
     </td>
     <td width="50%" valign="top">
       <h4>🗳️ <a href="https://github.com/HerbertyFreire/alagoas-2turno">Raio-X eleitoral de Alagoas</a></h4>
-      Análise interativa das eleições de 2026 em Alagoas por município, zona, local de votação e faixa etária — apresentada à gestão estadual e publicada na Vercel.
+      Análise interativa das eleições de 2026 em Alagoas por município, zona, local de votação e faixa etária, apresentada à gestão estadual e publicada na Vercel.
       <br/><br/>
       <img src="https://img.shields.io/badge/HTML-0b2a3a?style=flat-square&logo=html5&logoColor=fb923c"/>
       <img src="https://img.shields.io/badge/dados%20públicos-0b2a3a?style=flat-square"/>
@@ -141,11 +141,11 @@ const herberty = {
 | [Conversor-MPEG-para-MP4](https://github.com/HerbertyFreire/Conversor-MPEG-para-MP4) | Conversão de vídeos em lote, local, nascida de um problema real no trabalho (Python) |
 | [MyFood](https://github.com/HerbertyFreire/MyFood) | Projeto da disciplina de Programação 2 (Java) |
 | [Chatbot-clinica-Odontologica](https://github.com/HerbertyFreire/Chatbot-clinica-Odontologica) | Chatbot de atendimento para clínica odontológica (JavaScript) |
-| [Diagnostico-de-veterinario](https://github.com/HerbertyFreire/Diagnostico-de-veterinario) | Sistema de consulta e diagnóstico veterinário com *frames* — disciplina de IA |
+| [Diagnostico-de-veterinario](https://github.com/HerbertyFreire/Diagnostico-de-veterinario) | Sistema de consulta e diagnóstico veterinário com *frames* (disciplina de IA) |
 | [GraphAlgorithms-](https://github.com/HerbertyFreire/GraphAlgorithms-) | Algoritmos em grafos em C++ |
 | [Planetas-Orbitando-](https://github.com/HerbertyFreire/Planetas-Orbitando-) · [Campo-de-Futebol](https://github.com/HerbertyFreire/Campo-de-Futebol) | Computação gráfica com OpenGL |
 | [Centro-Historico](https://github.com/HerbertyFreire/Centro-Historico) | Projeto em Python |
-| Chat WebSocket | Servidor de chat com broadcast e sessões (`ws`) — Sistemas Distribuídos |
+| Chat WebSocket | Servidor de chat com broadcast e sessões (`ws`), da disciplina de Sistemas Distribuídos |
 
 </details>
 
