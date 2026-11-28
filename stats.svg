@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Estatísticas de HerbertyFreire no GitHub">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07182a"/><stop offset="1" stop-color="#0b2738"/></linearGradient>
+<clipPath id="f"><rect width="1200" height="230" rx="22"/></clipPath>
+<style>.m{font-family:"JetBrains Mono",Consolas,"Courier New",monospace}.s{font-family:"Segoe UI",Inter,-apple-system,Helvetica,Arial,sans-serif}.g{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:g 1.3s cubic-bezier(.2,.8,.2,1) forwards}@keyframes g{to{transform:scaleX(1)}}.fd{opacity:0;animation:i .8s ease-out forwards}@keyframes i{to{opacity:1}}</style></defs>
+<g clip-path="url(#f)">
+<rect width="1200" height="230" fill="url(#bg)"/>
+<text class="m" x="56" y="54" font-size="14" fill="#5eead4" letter-spacing="2">GITHUB · EM NÚMEROS</text>
+<g class="fd" style="animation-delay:0.10s" transform="translate(56 76)"><rect width="170" height="60" rx="12" fill="#fff" fill-opacity=".04" stroke="#5eead4" stroke-opacity=".18"/><text class="s" x="16" y="38" font-size="26" font-weight="800" fill="#f8fafc">24</text><text class="s" x="154" y="37" text-anchor="end" font-size="13" fill="#94a3b8">repositórios</text></g>
+<g class="fd" style="animation-delay:0.22s" transform="translate(242 76)"><rect width="170" height="60" rx="12" fill="#fff" fill-opacity=".04" stroke="#5eead4" stroke-opacity=".18"/><text class="s" x="16" y="38" font-size="26" font-weight="800" fill="#f8fafc">15</text><text class="s" x="154" y="37" text-anchor="end" font-size="13" fill="#94a3b8">autorais</text></g>
+<g class="fd" style="animation-delay:0.34s" transform="translate(56 148)"><rect width="170" height="60" rx="12" fill="#fff" fill-opacity=".04" stroke="#5eead4" stroke-opacity=".18"/><text class="s" x="16" y="38" font-size="26" font-weight="800" fill="#f8fafc">0</text><text class="s" x="154" y="37" text-anchor="end" font-size="13" fill="#94a3b8">estrelas</text></g>
+<g class="fd" style="animation-delay:0.46s" transform="translate(242 148)"><rect width="170" height="60" rx="12" fill="#fff" fill-opacity=".04" stroke="#5eead4" stroke-opacity=".18"/><text class="s" x="16" y="38" font-size="26" font-weight="800" fill="#f8fafc">16</text><text class="s" x="154" y="37" text-anchor="end" font-size="13" fill="#94a3b8">seguidores</text></g>
+<text class="m" x="470" y="54" font-size="14" fill="#94a3b8">linguagens mais usadas</text>
+<rect x="470" y="80" width="674" height="14" rx="7" fill="#fff" fill-opacity=".05"/>
+<g class="g"><clipPath id="bar"><rect x="470" y="80" width="674" height="14" rx="7"/></clipPath><g clip-path="url(#bar)">
+<rect x="470.0" y="80" width="487.2" height="14" fill="#e34c26"/>
+<rect x="956.7" y="80" width="72.4" height="14" fill="#3572A5"/>
+<rect x="1028.6" y="80" width="42.8" height="14" fill="#f7523f"/>
+<rect x="1070.9" y="80" width="40.2" height="14" fill="#f1e05a"/>
+<rect x="1110.6" y="80" width="17.6" height="14" fill="#3178c6"/>
+<rect x="1127.7" y="80" width="16.8" height="14" fill="#b07219"/>
+</g></g>
+<g class="fd" style="animation-delay:0.60s"><circle cx="476" cy="123" r="6" fill="#e34c26"/><text class="s" x="490" y="128" font-size="15" fill="#e2e8f0">HTML <tspan class="m" fill="#94a3b8" font-size="13">67.7%</tspan></text></g>
+<g class="fd" style="animation-delay:0.70s"><circle cx="702" cy="123" r="6" fill="#3572A5"/><text class="s" x="716" y="128" font-size="15" fill="#e2e8f0">Python <tspan class="m" fill="#94a3b8" font-size="13">10.0%</tspan></text></g>
+<g class="fd" style="animation-delay:0.80s"><circle cx="928" cy="123" r="6" fill="#f7523f"/><text class="s" x="942" y="128" font-size="15" fill="#e2e8f0">Blade <tspan class="m" fill="#94a3b8" font-size="13">5.9%</tspan></text></g>
+<g class="fd" style="animation-delay:0.90s"><circle cx="476" cy="163" r="6" fill="#f1e05a"/><text class="s" x="490" y="168" font-size="15" fill="#e2e8f0">JavaScript <tspan class="m" fill="#94a3b8" font-size="13">5.5%</tspan></text></g>
+<g class="fd" style="animation-delay:1.00s"><circle cx="702" cy="163" r="6" fill="#3178c6"/><text class="s" x="716" y="168" font-size="15" fill="#e2e8f0">TypeScript <tspan class="m" fill="#94a3b8" font-size="13">2.4%</tspan></text></g>
+<g class="fd" style="animation-delay:1.10s"><circle cx="928" cy="163" r="6" fill="#b07219"/><text class="s" x="942" y="168" font-size="15" fill="#e2e8f0">Java <tspan class="m" fill="#94a3b8" font-size="13">2.3%</tspan></text></g>
+</g>
+<rect x="1" y="1" width="1198" height="228" rx="21" fill="none" stroke="#5eead4" stroke-opacity=".18" stroke-width="2"/></svg>
